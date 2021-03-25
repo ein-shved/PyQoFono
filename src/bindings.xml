@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<typesystem package="QOfono">
+  <extra-includes>
+    <include file-name="pysideproperty.h" location="global"/>
+  </extra-includes>
+
+  <load-typesystem name="typesystem_core.xml" generate="no"/>
+
+  <object-type name="QOfonoModem"/>
+  <object-type name="QOfonoHandsfreeAudioAgent"/>
+  <object-type name="QOfonoManager"/>
+  <object-type name="QOfonoSimWatcher"/>
+  <object-type name="QOfonoTextTelephony"/>
+  <object-type name="QOfonoCallForwarding"/>
+  <object-type name="QOfonoSmartMessaging"/>
+  <object-type name="QOfonoCallMeter"/>
+  <object-type name="QOfonoMessageWaiting"/>
+  <object-type name="QOfonoCallSettings"/>
+  <object-type name="QOfonoMessageManager"/>
+  <object-type name="QOfonoSmartMessagingAgent"/>
+  <object-type name="QOfonoConnectionManager"/>
+  <object-type name="QOfonoCallVolume"/>
+  <object-type name="QOfonoVoiceCall"/>
+  <object-type name="QOfonoNetworkOperator"/>
+  <object-type name="QOfonoHandsfreeAudioManager"/>
+  <object-type name="QOfonoCellBroadcast"/>
+  <object-type name="QOfonoAssistedSatelliteNavigation"/>
+  <object-type name="QOfonoMessage"/>
+  <object-type name="QOfonoSupplementaryServices"/>
+  <object-type name="QOfonoHandsfree"/>
+  <object-type name="QOfonoConnectionContext"/>
+  <object-type name="QOfonoVoiceCallManager"/>
+  <object-type name="QOfonoHandsfreeAudioCard"/>
+  <object-type name="QOfonoNetworkRegistration"/>
+  <object-type name="QOfonoRadioSettings"/>
+  <object-type name="QOfonoLocationReporting"/>
+  <object-type name="QOfonoPositioningRequestAgent"/>
+  <object-type name="QOfonoPhonebook"/>
+  <object-type name="QOfonoSimManager"/>
+  <object-type name="QOfonoCallBarring"/>
+
+  <!-- Stub for include fixing -->
+  <object-type name="__pysideproperty_stub"/>
+
+</typesystem>
